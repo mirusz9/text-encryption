@@ -2,9 +2,9 @@
 // Maybe you're at the right place
 
 const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-let message = 'MYSENIORQUOTE';
-const number1 = ?; // These are two mystery numbers
-const number2 = ?; // Think of a funny high school memory
+let message = 'EXAMPLEMESSAGE';
+const number1 = 0;
+const number2 = 1;
 
 const add = (text, n) => {
 	const letters = text.toUpperCase().split('');
@@ -15,7 +15,7 @@ const add = (text, n) => {
 			// Increment each letter by n
 			const newIndex = (index + n) % 26;
 
-			return alphabet[newIndex ];
+			return alphabet[newIndex];
 		})
 		.join('');
 };
